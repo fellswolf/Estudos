@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+header{
+   margin-top: 10px;
+   padding-top: 200px;
+    
+}
+
+.geral{
+    color: white;
+}
