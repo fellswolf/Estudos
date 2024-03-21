@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="img-box">
+            <!--<img src="img/output.jpg" alt="">-->
+        </div>
+        <div class="form-box">
+            <h2>Registrar</h2>
+            <p> Já é um membro? <a href="#"> Login </a> </p>
+            <form action="#">
+                <div class="input-grupo">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                </div>
+
+                <div class="input-grupo">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" placeholder="Digite seu CPF" required>
+                </div>
+
+                <div class="input-grupo">
+                    <label for="telefone">Teleone</label>
+                    <input type="text" id="tel" placeholder="Digite seu telefone" required>
+                </div>
+
+                <div class="input-grupo">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+
+                <div class="input-grupo">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" id="ender" placeholder="Digite seu endereço" required>
+                </div>
+
+                <div class="input-grupo">
+                    <label for="n°">N°</label>
+                    <input type="text" id="num" placeholder="Digite o número da casa" required>
+                </div>
+
+                <div class="input-grupo">
+                    <label for="apto">APTO</label>
+                    <input type="text" id="apto" placeholder="Digite nome do condominio" required>
+                </div>
+
+                <div class="input-grupo">
+                    <label for="bloco">Bloco</label>
+                    <input type="text" id="bloco" placeholder="Digite o bloco do apartamento" required>
+                </div>
+
+                <div class="input-grupo">
+                    <label><input type="checkbox">Usar este mesmo endereço para entrega</label>
+                </div>
+
+                <div class="input-grupo w50">
+                    <label for="senha">Senha</label>
+                    <input type="text" id="senha" placeholder="Digite sua senha" required>
+                </div>
+
+                <div class="input-grupo w50">
+                    <label for="confirmarsenha">Confirmar Senha</label>
+                    <input type="text" id="confirmarsenha" placeholder="Digite sua senha" required>
+                </div>
+
+                <div class="input-grupo">
+                    <button>Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html> 
