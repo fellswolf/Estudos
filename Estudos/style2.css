@@ -1,0 +1,68 @@
+
+@import url('https://fonts.cdnfonts.com/css/genty-demo');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/output.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    min-height: 100vh;
+    font-family: 'Genty Demo', sans-serif;
+    
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+
+.mae{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width:600px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width: 1px;
+    border-style: solid;
+    border-color: white ;
+    color: white;
+}
+
+input[type=checkbox]{
+    border: 0px;
+    width: 60px;
+    height: 2em;
+}
+
+label{
+    display: inline-block;
+}
+
+.botao button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: #a78f82;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    
+} 
